@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>ToDo Board</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="images/pen.png" alt="pen">
+        <div class="notebook">
+            <form name="taskList" class="task">
+                <h3>ToDo</h3>
+            </form>
+            <div class="input">
+                <h3 id="textCenter">Add new task</h3>
+                <input type="text" id="input">
+                <button type="button" id="button">Add</button>
+            </div>
+            <div class="warning">
+                <h5>Error!</h5>
+                <button class="error">X</button>
+                <p class="errorText"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
